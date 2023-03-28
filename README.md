@@ -9,5 +9,5 @@ chmod +x cleanup_kindle_notes.sh
 
 It will remove the following lines:
 
-* ========== and the next line which contains the title.
+* "==========" and the next line, which contains the book title.
 * Lines starting with "- Highlight"
