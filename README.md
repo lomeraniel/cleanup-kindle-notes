@@ -1,7 +1,7 @@
 # cleanup-kindle-notes
-It cleans up Kindle Highlight files.
+It cleans up Kindle Highlight files (My Clippings.txt)
 
-**To make the file executable:**
+**To make the script executable:**
 chmod +x cleanup_kindle_notes.sh
 
 **Usage:**
@@ -9,5 +9,5 @@ chmod +x cleanup_kindle_notes.sh
 
 It will remove the following lines:
 
-* "==========" and the next line, which contains the book title.
-* Lines starting with "- Highlight"
+* All occurrences of "==========" and the next adyacent line, which contains the book title.
+* All lines starting with "- Highlight"
