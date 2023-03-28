@@ -15,8 +15,7 @@ $0 == "==========" { skip_line = 1; next }
 
 skip_line { skip_line = 0; next }
 
-#!/^ - Highlight on Page/ { print $0 }
-$1 !~ /-/ && $2 !~ /Highlight/ { print $0 }
+$1 !~ /-/ && $2 !~ /Highlight/ && $3 !~ /on/ && $4 !~ /Page/{ print $0 }
 ' "$input_file" > "$output_file"
 
 echo "Filtered content has been saved to $output_file"
