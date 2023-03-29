@@ -1,6 +1,6 @@
 # Cleanup Kindle Notes
 
-This is a small script that cleans up Kindle Highlight files (`My Clippings.txt`). I created it because exporting Notes from my Second Generation Kindle is not as straightforward as from newer models.
+This is a small script that cleans up Kindle Highlight files (`My Clippings.txt`). I created it because exporting and cleaning up Notes from my [Second Generation Kindle](https://s3-us-west-2.amazonaws.com/customerdocumentation/EK2/Customize+Your+Reading+on+Kindle+(2nd+Generation).pdf) is not as straightforward as from newer models.
 
 # Requirements
 
